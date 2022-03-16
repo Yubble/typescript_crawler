@@ -1,0 +1,26 @@
+{
+  "name": "typescript_crawler",
+  "version": "1.0.0",
+  "description": "用于练习typescript语法与node爬虫能力",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/crawler.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yubble/typescript_crawler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yubble/typescript_crawler/issues"
+  },
+  "homepage": "https://github.com/Yubble/typescript_crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "superagent": "^7.1.1"
+  },
+  "devDependencies": {
+    "@types/superagent": "^4.1.15"
+  }
+}
